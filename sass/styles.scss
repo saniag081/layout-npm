@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?dnoq3e');
+    src: url('fonts/icomoon.eot?dnoq3e#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?dnoq3e') format('truetype'), url('fonts/icomoon.woff?dnoq3e') format('woff'), url('fonts/icomoon.svg?dnoq3e#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-binoculars:before {
+    content: "\e985";
+}
+
+.icon-search:before {
+    content: "\e986";
+}
+
+.icon-cogs:before {
+    content: "\e995";
+}
+
+.icon-earth:before {
+    content: "\e9ca";
+}
+
+.icon-paragraph-justify:before {
+    content: "\ea7a";
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background: #D30C24;
+    p {
+        display: inline-block;
+        margin: 0;
+        color: #ffffff;
+        padding: 10px;
+        float: left;
+        font-size: 17px;
+        font-weight: 300;
+    }
+    &-menu {
+        li {
+            list-style: none;
+            a {
+                text-decoration: none;
+                color: #ffffff;
+                font-size: 17px;
+                font-weight: 300;
+            }
+        }
+        &-container {
+            display: flex;
+            justify-content: flex-end;
+            align-content: center;
+            li {
+                padding: 10px;
+            }
+        }
+    }
+}
+
+.description {
+    background-image: url(../images/fondo.svg);
+    background-size: cover;
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 22px 0 10px 19px;
+        &-seeker {
+            width: 80%;
+            input {
+                width: 100%;
+                background: #004E6B;
+                border: 1px solid #005777;
+                padding: 8px;
+            }
+        }
+        &-search {
+            width: 20%;
+            a {
+                padding: 10px;
+                text-decoration: none;
+                color: #ffffff;
+            }
+            &-buttom {
+                padding: 8px;
+                width: 34px;
+                background-color: #004E6B;
+                border: 1px solid #005777;
+            }
+        }
+    }
+    &-sub {
+        padding: 50px;
+        padding-bottom: 80px;
+        color: #ffffff;
+        width: 550px;
+        p {
+            margin-bottom: 50px;
+        }
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #EE8B34;
+            padding: 5px 10px;
+            ;
+            border-radius: 8px;
+        }
+        &-title {
+            font-size: 30px;
+            font-weight: 400;
+        }
+    }
+}
+
+.qualities {
+    background-color: #083145;
+}
