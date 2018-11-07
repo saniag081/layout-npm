@@ -204,9 +204,8 @@ ul {
         justify-content: space-between;
         flex-wrap: wrap;
         padding: 30px 70px 50px 70px;
-
-        p{
-            span{
+        p {
+            span {
                 color: #DD2531;
             }
         }
@@ -258,27 +257,57 @@ ul {
     }
 }
 
-.versions{
+.versions {
     padding: 50px 80px;
-
-    &-title{
+    &-title {
         text-align: center;
         font-size: 30px;
         font-weight: 400;
         margin: 0;
         margin-bottom: 30px;
     }
-
-    &-container{
+    &-container {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-
-        &-box{
+        &-box {
             width: 30%;
-            span{
+            span {
                 color: #DD2531;
             }
         }
+    }
+}
+
+.form {
+    background-color: #083145;
+    color: #ffffff;
+    padding-bottom: 30px;
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 40px 100px;
+        &-box {
+            width: 20%;
+            &-title {
+                color: #98B9CF;
+                border-bottom: 1px solid #314758;
+                padding-bottom: 20px;
+            }
+            ul {
+                list-style: none;
+                li {
+                    padding: 3px;
+                }
+                a {
+                    text-decoration: none;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+    p {
+        text-align: center;
     }
 }
