@@ -201,6 +201,9 @@ ul {
   flex-wrap: wrap;
   padding: 30px 70px 50px 70px;
 }
+.building-blocks-container p span {
+  color: #DD2531;
+}
 .building-blocks .find {
   background-color: #083145;
 }
@@ -245,6 +248,28 @@ ul {
 .new-heights-container-image img {
   width: 100%;
   border-radius: 50%;
+}
+
+.versions {
+  padding: 50px 80px;
+}
+.versions-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.versions-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.versions-container-box {
+  width: 30%;
+}
+.versions-container-box span {
+  color: #DD2531;
 }
 
 /*# sourceMappingURL=styles.css.map */
