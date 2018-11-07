@@ -106,6 +106,7 @@ ul {
 .description {
   background-image: url(../images/fondo.svg);
   background-size: cover;
+  height: 600px;
 }
 .description-container {
   display: flex;
@@ -144,6 +145,8 @@ ul {
 }
 .description-sub p {
   margin-bottom: 50px;
+  font-size: 18px;
+  line-height: 24px;
 }
 .description-sub a {
   text-decoration: none;
@@ -173,6 +176,7 @@ ul {
 }
 .qualities-collaboration ul {
   padding: 29px;
+  line-height: 33px;
 }
 .qualities-collaboration a {
   text-decoration: none;
@@ -183,6 +187,9 @@ ul {
 }
 .qualities-collaboration-title {
   font-weight: 500;
+}
+.qualities-collaboration p span {
+  font-weight: 600;
 }
 
 .building-blocks {
@@ -200,6 +207,9 @@ ul {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 30px 70px 50px 70px;
+}
+.building-blocks-container p {
+  line-height: 28px;
 }
 .building-blocks-container p span {
   color: #DD2531;
@@ -234,6 +244,7 @@ ul {
 }
 .new-heights-container-box p {
   margin-bottom: 50px;
+  line-height: 28px;
 }
 .new-heights-container-box a {
   background-color: #D30C24;
@@ -268,7 +279,10 @@ ul {
 .versions-container-box {
   width: 30%;
 }
-.versions-container-box span {
+.versions-container-box li p {
+  line-height: 26px;
+}
+.versions-container-box li p span {
   color: #DD2531;
 }
 
@@ -293,6 +307,7 @@ ul {
 }
 .form-container-box ul {
   list-style: none;
+  line-height: 24px;
 }
 .form-container-box ul li {
   padding: 3px;

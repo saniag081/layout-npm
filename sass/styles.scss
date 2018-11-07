@@ -110,6 +110,7 @@ ul {
 .description {
     background-image: url(../images/fondo.svg);
     background-size: cover;
+    height: 600px;
     &-container {
         display: flex;
         justify-content: space-between;
@@ -146,6 +147,8 @@ ul {
         width: 550px;
         p {
             margin-bottom: 50px;
+            font-size: 18px;
+            line-height: 24px;
         }
         a {
             text-decoration: none;
@@ -159,6 +162,11 @@ ul {
             font-size: 30px;
             font-weight: 400;
         }
+    }
+}
+
+@media screen and (max-width: 1010px){
+    .description{
     }
 }
 
@@ -176,6 +184,7 @@ ul {
         width: 44%;
         ul {
             padding: 29px;
+            line-height: 33px;
         }
         a {
             text-decoration: none;
@@ -186,6 +195,11 @@ ul {
         }
         &-title {
             font-weight: 500;
+        }
+        p{
+            span{
+                font-weight: 600;
+            }
         }
     }
 }
@@ -205,6 +219,7 @@ ul {
         flex-wrap: wrap;
         padding: 30px 70px 50px 70px;
         p {
+            line-height: 28px;
             span {
                 color: #DD2531;
             }
@@ -238,6 +253,7 @@ ul {
             }
             p {
                 margin-bottom: 50px;
+                line-height: 28px;
             }
             a {
                 background-color: #D30C24;
@@ -272,8 +288,13 @@ ul {
         flex-wrap: wrap;
         &-box {
             width: 30%;
-            span {
-                color: #DD2531;
+            li{
+                p{
+                    line-height: 26px;
+                    span {
+                        color: #DD2531;
+                    }
+                }
             }
         }
     }
@@ -297,6 +318,7 @@ ul {
             }
             ul {
                 list-style: none;
+                line-height: 24px;
                 li {
                     padding: 3px;
                 }
