@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'icomoon';
-    src: url('fonts/icomoon.eot?dnoq3e');
-    src: url('fonts/icomoon.eot?dnoq3e#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?dnoq3e') format('truetype'), url('fonts/icomoon.woff?dnoq3e') format('woff'), url('fonts/icomoon.svg?dnoq3e#icomoon') format('svg');
+    src: url('../fonts/icomoon.eot?dnoq3e');
+    src: url('../fonts/icomoon.eot?dnoq3e#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?dnoq3e') format('truetype'), url('../fonts/icomoon.woff?dnoq3e') format('woff'), url('../fonts/icomoon.svg?dnoq3e#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -45,13 +45,34 @@
     box-sizing: border-box;
 }
 
-body {
+body,
+html {
     font-family: 'Open Sans', sans-serif;
 }
 
 ul {
     padding: 0;
     margin: 0;
+}
+
+.u {
+    &-building-blocks-container-box {
+        width: 32%;
+        text-align: center;
+    }
+    &-fonts {
+        font-size: 25px;
+        color: #ffffff;
+        padding: 25px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+    }
+    &-sub-title {
+        margin-top: 35px;
+        font-family: 'Allerta', sans-serif;
+        font-weight: 500;
+    }
 }
 
 .header {
@@ -148,26 +169,49 @@ ul {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 60px 107px;
-    &-image{
+    &-image {
         width: 50%;
     }
-    
-    &-collaboration{
+    &-collaboration {
         width: 44%;
-        ul{
-            padding: 29px;    
+        ul {
+            padding: 29px;
         }
-
-        a{
+        a {
             text-decoration: none;
             color: #ffffff;
             background-color: #DD2531;
             padding: 5px 15px;
             border-radius: 10px;
         }
-
-        &-title{
+        &-title {
             font-weight: 500;
         }
+    }
+}
+
+.building-blocks {
+    padding-top: 30px;
+    &-intro {
+        text-align: center;
+        &-title {
+            font-size: 30px;
+            font-weight: 400;
+        }
+    }
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 30px 70px 50px 70px;
+    }
+    .find {
+        background-color: #083145;
+    }
+    .discover {
+        background-color: #EE8B34;
+    }
+    .build {
+        background-color: #E45559;
     }
 }
