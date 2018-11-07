@@ -143,4 +143,31 @@ ul {
 
 .qualities {
     background-color: #083145;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 60px 107px;
+    &-image{
+        width: 50%;
+    }
+    
+    &-collaboration{
+        width: 44%;
+        ul{
+            padding: 29px;    
+        }
+
+        a{
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #DD2531;
+            padding: 5px 15px;
+            border-radius: 10px;
+        }
+
+        &-title{
+            font-weight: 500;
+        }
+    }
 }

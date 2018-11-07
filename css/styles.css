@@ -140,6 +140,30 @@ ul {
 
 .qualities {
   background-color: #083145;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 60px 107px;
+}
+.qualities-image {
+  width: 50%;
+}
+.qualities-collaboration {
+  width: 44%;
+}
+.qualities-collaboration ul {
+  padding: 29px;
+}
+.qualities-collaboration a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #DD2531;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+.qualities-collaboration-title {
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=styles.css.map */
