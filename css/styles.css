@@ -104,6 +104,7 @@ ul {
 }
 
 .description {
+  background: #004A66;
   background-image: url(../images/fondo.svg);
   background-size: cover;
   height: 600px;
@@ -112,7 +113,7 @@ ul {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 22px 0 10px 19px;
+  padding: 22px 10px 10px 19px;
 }
 .description-container-seeker {
   width: 80%;
@@ -160,6 +161,63 @@ ul {
   font-weight: 400;
 }
 
+@media screen and (max-width: 1010px) {
+  .description-container-seeker {
+    width: 75%;
+  }
+  .description-container-search {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 795px) {
+  .description {
+    height: 549px;
+  }
+  .description-container-seeker {
+    width: 68%;
+  }
+  .description-container-search {
+    width: 32%;
+  }
+}
+@media screen and (max-width: 633px) {
+  .description {
+    height: 800px;
+  }
+  .description-sub {
+    padding: 50px 5%;
+    padding-top: 415px;
+    width: auto;
+  }
+  .description-container-seeker {
+    width: 94%;
+  }
+  .description-container-search {
+    width: 6%;
+  }
+  .description-container-search a {
+    display: none;
+  }
+}
+@media screen and (max-width: 465px) {
+  .description-container {
+    padding: 22px 5% 10px 5%;
+  }
+  .description-container-seeker {
+    width: 90%;
+  }
+  .description-container-search {
+    width: 10%;
+  }
+}
+@media screen and (max-width: 439px) {
+  .description {
+    height: 758px;
+  }
+  .description-sub {
+    padding-top: 338px;
+  }
+}
 .qualities {
   background-color: #083145;
   color: #ffffff;

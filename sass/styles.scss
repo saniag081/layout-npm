@@ -108,6 +108,7 @@ ul {
 }
 
 .description {
+    background: #004A66;
     background-image: url(../images/fondo.svg);
     background-size: cover;
     height: 600px;
@@ -115,7 +116,7 @@ ul {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        padding: 22px 0 10px 19px;
+        padding: 22px 10px 10px 19px;
         &-seeker {
             width: 80%;
             input {
@@ -165,8 +166,75 @@ ul {
     }
 }
 
-@media screen and (max-width: 1010px){
+@media screen and (max-width: 1010px) {
+    .description {
+        &-container {
+            &-seeker {
+                width: 75%;
+            }
+            &-search {
+                width: 25%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 795px) {
+    .description {
+        height: 549px;
+        &-container {
+            &-seeker {
+                width: 68%;
+            }
+            &-search {
+                width: 32%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:633px) {
+    .description {
+        height: 800px;
+        &-sub{
+            padding: 50px 5%;
+            padding-top:415px;
+            width: auto;
+        }
+        &-container{
+            &-seeker{
+                width: 94%;
+            }
+            &-search{
+                width: 6%;
+                a{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 465px){
     .description{
+        &-container{
+            padding: 22px 5% 10px 5%;
+            &-seeker{
+                width: 90%;
+            }
+            &-search{
+                width:10%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 439px){
+    .description{
+        height: 758px;
+        &-sub{
+            padding-top: 338px;
+        }
     }
 }
 
@@ -196,8 +264,8 @@ ul {
         &-title {
             font-weight: 500;
         }
-        p{
-            span{
+        p {
+            span {
                 font-weight: 600;
             }
         }
@@ -288,8 +356,8 @@ ul {
         flex-wrap: wrap;
         &-box {
             width: 30%;
-            li{
-                p{
+            li {
+                p {
                     line-height: 26px;
                     span {
                         color: #DD2531;
