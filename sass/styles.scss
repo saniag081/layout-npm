@@ -105,6 +105,53 @@ ul {
             }
         }
     }
+    .burger-buttom {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        height: 40px;
+        width: 40px;
+        color: #ffffff;
+        background: #98B9CF;
+        border-radius: 50%;
+        line-height: 40px;
+        text-align: center;
+        z-index: 3;
+        cursor: pointer;
+        display: none;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .header {
+        p {
+            display: none;
+        }
+        .burger-buttom {
+            display: block;
+        }
+        &-menu {
+            // -webkit-transition: .3s;
+            /* -moz-transition: .3s; */
+            /* -ms-transition: .3s; */
+            /* -o-transition: .3s; */
+            &-container {
+                flex-direction: column;
+                display: none;
+                text-align: center;
+                background: #004A66;
+            }
+            li {
+                border-bottom: 1px solid #ffffff;
+                a {
+                    display: inline-block;
+                }
+            }
+        }
+    }
+    .-active {
+        display: block;
+    }
 }
 
 .description {
@@ -196,18 +243,18 @@ ul {
 @media screen and (max-width:633px) {
     .description {
         height: 800px;
-        &-sub{
+        &-sub {
             padding: 50px 5%;
-            padding-top:415px;
+            padding-top: 415px;
             width: auto;
         }
-        &-container{
-            &-seeker{
+        &-container {
+            &-seeker {
                 width: 94%;
             }
-            &-search{
+            &-search {
                 width: 6%;
-                a{
+                a {
                     display: none;
                 }
             }
@@ -215,25 +262,34 @@ ul {
     }
 }
 
-@media screen and (max-width: 465px){
-    .description{
-        &-container{
+@media screen and (max-width: 465px) {
+    .description {
+        &-container {
             padding: 22px 5% 10px 5%;
-            &-seeker{
+            &-seeker {
                 width: 90%;
             }
-            &-search{
-                width:10%;
+            &-search {
+                width: 10%;
             }
         }
     }
 }
 
-@media screen and (max-width: 439px){
-    .description{
-        height: 758px;
-        &-sub{
-            padding-top: 338px;
+@media screen and (max-width: 439px) {
+    .description {
+        height: 730px;
+        &-sub {
+            padding-top: 300px;
+        }
+    }
+}
+
+         // responsive header
+@media screen and (max-width: 712px) {
+    .description {
+        &-container {
+            padding-top: 60px;
         }
     }
 }
