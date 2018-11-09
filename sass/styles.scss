@@ -278,7 +278,7 @@ ul {
 
 @media screen and (max-width: 439px) {
     .description {
-        height: 730px;
+        height: 757px;
         &-sub {
             padding-top: 300px;
         }
@@ -301,8 +301,12 @@ ul {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 60px 107px;
-    &-image {
+    &-container{
         width: 50%;
+        display: inherit;
+        &-image {
+            width: 100%;
+        }
     }
     &-collaboration {
         width: 44%;
@@ -325,6 +329,27 @@ ul {
                 font-weight: 600;
             }
         }
+    }
+}
+
+@media screen and (max-width: 865px){
+    .qualities{
+        flex-direction: column;
+        padding: 14px 107px;
+        &-container{
+            width: auto;
+            height: 220px;
+        }
+        &-collaboration{
+            width: auto;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    .qualities{
+        padding: 14px 5%;
     }
 }
 

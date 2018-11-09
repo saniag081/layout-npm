@@ -256,7 +256,7 @@ ul {
 }
 @media screen and (max-width: 439px) {
   .description {
-    height: 730px;
+    height: 757px;
   }
   .description-sub {
     padding-top: 300px;
@@ -275,8 +275,12 @@ ul {
   flex-wrap: wrap;
   padding: 60px 107px;
 }
-.qualities-image {
+.qualities-container {
   width: 50%;
+  display: inherit;
+}
+.qualities-container-image {
+  width: 100%;
 }
 .qualities-collaboration {
   width: 44%;
@@ -299,6 +303,25 @@ ul {
   font-weight: 600;
 }
 
+@media screen and (max-width: 865px) {
+  .qualities {
+    flex-direction: column;
+    padding: 14px 107px;
+  }
+  .qualities-container {
+    width: auto;
+    height: 220px;
+  }
+  .qualities-collaboration {
+    width: auto;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .qualities {
+    padding: 14px 5%;
+  }
+}
 .building-blocks {
   padding-top: 30px;
 }
