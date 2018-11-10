@@ -167,6 +167,7 @@ ul {
         &-seeker {
             width: 80%;
             input {
+                color: #fff;
                 width: 100%;
                 background: #004E6B;
                 border: 1px solid #005777;
@@ -278,14 +279,12 @@ ul {
 
 @media screen and (max-width: 439px) {
     .description {
-        height: 757px;
+        height: 757qqqqpx;
         &-sub {
             padding-top: 300px;
         }
     }
-}
-
-         // responsive header
+} // responsive header
 @media screen and (max-width: 712px) {
     .description {
         &-container {
@@ -301,7 +300,7 @@ ul {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 60px 107px;
-    &-container{
+    &-container {
         width: 50%;
         display: inherit;
         &-image {
@@ -332,23 +331,23 @@ ul {
     }
 }
 
-@media screen and (max-width: 865px){
-    .qualities{
+@media screen and (max-width: 865px) {
+    .qualities {
         flex-direction: column;
         padding: 14px 107px;
-        &-container{
+        &-container {
             width: auto;
             height: 220px;
         }
-        &-collaboration{
+        &-collaboration {
             width: auto;
             text-align: center;
         }
     }
 }
 
-@media screen and (max-width: 600px){
-    .qualities{
+@media screen and (max-width: 600px) {
+    .qualities {
         padding: 14px 5%;
     }
 }
@@ -382,6 +381,35 @@ ul {
     }
     .build {
         background-color: #E45559;
+    }
+}
+
+@media screen and (max-width: 966px) {
+    .building-blocks {
+        &-container {
+            padding: 30px 30px 50px 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .building-blocks {
+        padding: 0;
+        &-intro{
+            padding: 20px 5%;
+            p{
+                margin-bottom: 50px;
+            }
+        }
+        &-container {
+            padding: 20px 5%;
+            padding-bottom: 0; 
+            flex-direction: column;
+        }
+    }
+    .u-building-blocks-container-box{
+        width: auto;
+        margin-bottom: 50px;
     }
 }
 

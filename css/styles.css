@@ -163,6 +163,7 @@ ul {
   width: 80%;
 }
 .description-container-seeker input {
+  color: #fff;
   width: 100%;
   background: #004E6B;
   border: 1px solid #005777;
@@ -256,7 +257,7 @@ ul {
 }
 @media screen and (max-width: 439px) {
   .description {
-    height: 757px;
+    height: 757qqqqpx;
   }
   .description-sub {
     padding-top: 300px;
@@ -354,6 +355,32 @@ ul {
   background-color: #E45559;
 }
 
+@media screen and (max-width: 966px) {
+  .building-blocks-container {
+    padding: 30px 30px 50px 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .building-blocks {
+    padding: 0;
+  }
+  .building-blocks-intro {
+    padding: 20px 5%;
+  }
+  .building-blocks-intro p {
+    margin-bottom: 50px;
+  }
+  .building-blocks-container {
+    padding: 20px 5%;
+    padding-bottom: 0;
+    flex-direction: column;
+  }
+
+  .u-building-blocks-container-box {
+    width: auto;
+    margin-bottom: 50px;
+  }
+}
 .new-heights {
   background-color: #083145;
   color: #ffffff;
