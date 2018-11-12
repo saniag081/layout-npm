@@ -418,6 +418,30 @@ ul {
   border-radius: 50%;
 }
 
+@media screen and (max-width: 767px) {
+  .new-heights-container {
+    text-align: center;
+    flex-direction: column;
+  }
+  .new-heights-container-image {
+    text-align: center;
+    width: initial;
+  }
+  .new-heights-container-image img {
+    width: 280px;
+  }
+  .new-heights-container-box {
+    width: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .new-heights-container {
+    padding: 50px 5%;
+  }
+  .new-heights-container-image img {
+    width: 230px;
+  }
+}
 .versions {
   padding: 50px 80px;
 }

@@ -395,19 +395,19 @@ ul {
 @media screen and (max-width: 767px) {
     .building-blocks {
         padding: 0;
-        &-intro{
+        &-intro {
             padding: 20px 5%;
-            p{
+            p {
                 margin-bottom: 50px;
             }
         }
         &-container {
             padding: 20px 5%;
-            padding-bottom: 0; 
+            padding-bottom: 0;
             flex-direction: column;
         }
     }
-    .u-building-blocks-container-box{
+    .u-building-blocks-container-box {
         width: auto;
         margin-bottom: 50px;
     }
@@ -445,6 +445,38 @@ ul {
             img {
                 width: 100%;
                 border-radius: 50%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .new-heights {
+        &-container {
+            text-align: center;
+            flex-direction: column;
+            &-image {
+                text-align: center;
+                width: initial;
+                img {
+                    width: 280px;
+                }
+            }
+            &-box {
+                width: auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .new-heights {
+        &-container {
+            padding: 50px 5%;
+            &-image{
+                img{
+                    width:230px;
+                }
             }
         }
     }
