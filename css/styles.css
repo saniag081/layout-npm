@@ -514,4 +514,19 @@ ul {
   text-align: center;
 }
 
+@media screen and (max-width: 772px) {
+  .form-container {
+    padding: 40px 5%;
+  }
+}
+@media screen and (max-width: 615px) {
+  .form-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .form-container-box {
+    width: initial;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
