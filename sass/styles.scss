@@ -450,7 +450,7 @@ ul {
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
     .new-heights {
         &-container {
             text-align: center;
@@ -506,6 +506,23 @@ ul {
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width: 767px){
+    .versions{
+        &-container{
+            flex-direction: column;
+            &-box{
+                width: auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px){
+    .versions{
+        padding: 25px 9%;
     }
 }
 
